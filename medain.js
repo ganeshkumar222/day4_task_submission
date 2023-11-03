@@ -20,11 +20,11 @@ if(c.length%2===0)
 }
 else
 {
-   return c[c.length/2]
+   return (c[Math.floor(c.length/2)])
 }
 
 }
-console.log(medain([1,12,15,26,38],[13,19,30,45,2]));
+console.log(medain([1,12,15,26,38,39],[13,19,30,45,2]));
 // IIFE
 (function(a1,b1){
     var c1 = a1.concat(b1)
@@ -46,8 +46,8 @@ if(c1.length%2===0)
 }
 else
 {
-   console.log(c1[c1.length/2])
+   console.log(c1[Math.floor(c1.length/2)])
 }
 
 
-})([1,12,15,26,38],[13,18,30,45,2])
+})([1,12,15,26,38,39],[13,18,30,45,2])
