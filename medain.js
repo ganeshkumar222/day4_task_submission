@@ -16,7 +16,7 @@ for(var i =0;i<c.length;i++)
 if(c.length%2===0)
 {
    var d = (c[c.length/2]+c[c.length/2-1])/2
-   return Math.floor(d)
+   return d
 }
 else
 {
@@ -42,7 +42,7 @@ for(var i =0;i<c1.length;i++)
 if(c1.length%2===0)
 {
    var d1 = (c1[c1.length/2]+c1[c1.length/2-1])/2
-   console.log(Math.floor(d1) )
+   console.log (d1)
 }
 else
 {
