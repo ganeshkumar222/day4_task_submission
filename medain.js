@@ -16,7 +16,7 @@ for(var i =0;i<c.length;i++)
 if(c.length%2===0)
 {
    var d = (c[c.length/2]+c[c.length/2-1])/2
-   return d
+   return Math.floor(d)
 }
 else
 {
@@ -24,7 +24,7 @@ else
 }
 
 }
-console.log(medain([1,12,15,26,38],[13,17,30,45,2]));
+console.log(medain([1,12,15,26,38],[13,19,30,45,2]));
 // IIFE
 (function(a1,b1){
     var c1 = a1.concat(b1)
@@ -42,7 +42,7 @@ for(var i =0;i<c1.length;i++)
 if(c1.length%2===0)
 {
    var d1 = (c1[c1.length/2]+c1[c1.length/2-1])/2
-   console.log(d1) 
+   console.log(Math.floor(d1) )
 }
 else
 {
@@ -50,4 +50,4 @@ else
 }
 
 
-})([1,12,15,26,38],[13,17,30,45,2])
+})([1,12,15,26,38],[13,18,30,45,2])
